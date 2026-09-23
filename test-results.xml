@@ -1,0 +1,10 @@
+
+> helloworld@1.0.0 test /home/osboxes/projects/lab3/MSES602_HelloWorld
+> mocha --exit --timeout 5000 --recursive -R xunit test/* 
+
+Server running at http://127.0.0.1:8082/
+Hello World.
+<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="Wed, 23 Sep 2026 23:11:13 GMT" time="0.011">
+<testcase classname="/" name="should return 200" time="0.009"/>
+<testcase classname="/" name="should say &#x22;Hello World.&#x22;" time="0.002"/>
+</testsuite>
