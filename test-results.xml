@@ -1,10 +1,5 @@
-
-
-  /
-    ✓ should return 200
 Hello World.
-    ✓ should say "Hello World."
-
-
-  2 passing (9ms)
-
+<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="Wed, 23 Sep 2026 21:45:57 GMT" time="0.008">
+<testcase classname="/" name="should return 200" time="0.006"/>
+<testcase classname="/" name="should say &#x22;Hello World.&#x22;" time="0.001"/>
+</testsuite>
