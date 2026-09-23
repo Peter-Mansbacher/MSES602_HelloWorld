@@ -1,6 +1,4 @@
-Server running at http://127.0.0.1:8082/
-Hello World.
-<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="Wed, 23 Sep 2026 21:56:39 GMT" time="0.011">
-<testcase classname="/" name="should return 200" time="0.006"/>
-<testcase classname="/" name="should say &#x22;Hello World.&#x22;" time="0.001"/>
+<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="Wed, 23 Sep 2026 22:03:23 GMT" time="0.02">
+<testcase classname="/" name="should return 200" time="0.016"/>
+<testcase classname="/" name="should say &#x22;Hello World.&#x22;" time="0.003"/>
 </testsuite>
