@@ -7,9 +7,10 @@ pipeline {
             steps {
                 sh 'npm --version'
                 sh 'npm install'
-            }
-        }
+           }
+    
+}
+	}
     }
 }
-
 

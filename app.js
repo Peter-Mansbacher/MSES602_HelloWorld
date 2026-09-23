@@ -14,14 +14,12 @@ const server = http.createServer((req, res) => {
     }); } else {
 	  res.statusCode = 200;
 	  res.setHeader('Content-Type', 'text/plain');
-	  res.write('Hello World. My name is Peter Mansbacher');
-	  res.write(' ');
-	  res.end('This is part of my lab 3 modification');
+	  res.end('Hello World.');
    }
 
 });
 
 server.listen(port, hostname, () => {
-	  console.log(`Server running at http://${hostname}:${port}/`);
+//	  console.log(`Server running at http://${hostname}:${port}/`);
 });
 
