@@ -1,18 +1,24 @@
 {
   "name": "helloworld",
   "version": "1.0.0",
-  "description": "Simple hello world app",
+  "description": "Minimal project",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "./node_modules/.bin/mocha --exit --timeout 5000 --recursive -R xunit --reporter-option output=test-results.xml test/*"
+    "test": "./node_modules/.bin/mocha --exit --timeout 5000 --recursive -R xunit test/* "
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RegisUniversity/MSES602_helloWorld.git"
+  },
+  "author": "Bill Masters",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RegisUniversity/MSES602_helloWorld/issues"
+  },
+  "homepage": "https://github.com/RegisUniversity/MSES602_helloWorld#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^8.2.1",
-    "supertest": "^6.0.1"
+    "http": "0.0.0",
+    "mocha": "^8.1.3"
   }
 }
